@@ -1,4 +1,4 @@
-##**PyPhisher Phishing Attack Documentation**
+**PyPhisher Phishing Attack Documentation**
 
 This repository documents my use of the PyPhisher tool to simulate phishing attacks on my own system. I utilized the Gmail and Instagram options provided by PyPhisher.
 
@@ -20,9 +20,9 @@ If in case you recieve an error message prompting 'File is not a zip file!', NO 
   
   pip install -r requirements.txt
 
-##**I peformed 2 attacks on my own system:**
+**I peformed 2 attacks on my own system:**
     
-  ##1: Gmail Phishing Attack
+  **1: Gmail Phishing Attack**
   
   Run PyPhisher:
   
@@ -47,6 +47,28 @@ If in case you recieve an error message prompting 'File is not a zip file!', NO 
   Share the Phishing URL:
   
   Copy the generated URL and access it on your own system. Monitor the terminal for captured credentials.
-    
 
+  **2: Instagram Phishing Attack**
+
+  Run PyPhisher: python pyphisher.py
+
+  Select the Instagram Phishing Template:
+  
+  From the menu, select the Instagram option by entering its corresponding number. For example:
+
+  Enter Shadow URL:
+  
+  Enter the actual Instagram login URL:
+    
+  Enter Redirection URL:
+  
+  Enter the Instagram login URL:
+
+  Generate the Phishing URL:
+
+  PyPhisher will generate a phishing URL. The output will look something like this:
+
+  Share the Phishing URL:
+  
+  Copy the generated URL and access it on your own system. Monitor the terminal for captured credentials.
 
